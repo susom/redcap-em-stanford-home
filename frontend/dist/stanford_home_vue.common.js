@@ -100,51 +100,44 @@ if (typeof window !== 'undefined') {
 /* harmony default export */ var setPublicPath = (null);
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
-var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=template&id=0c946eec
+    var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
+    ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=template&id=0c946eec
 
-function render(_ctx, _cache, $props, $setup, $data, $options) {
-  const _component_HomePage = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.resolveComponent)("HomePage");
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createBlock)(_component_HomePage);
-}
-;// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=0c946eec
+    function render(_ctx, _cache, $props, $setup, $data, $options) {
+        const _component_HomePage = (0, external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.resolveComponent)("HomePage");
+        return (0, external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0, external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createBlock)(_component_HomePage);
+    }
+    ;// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=0c946eec
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HomePage.vue?vue&type=template&id=5e6f8f48
+    ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HomePage.vue?vue&type=template&id=2c5354dc
 
-const _hoisted_1 = {
-  class: "container-fluid"
-};
-const _hoisted_2 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("h2", null, "Stanford Home", -1);
-const _hoisted_3 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("button", {
-  class: "btn btn-primary",
-  "data-bs-target": "#collapseTarget",
-  "data-bs-toggle": "collapse"
-}, " Bootstrap collapse ", -1);
-const _hoisted_4 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("div", {
-  class: "collapse py-2",
-  id: "collapseTarget"
-}, " This is the toggle-able content! ", -1);
-const _hoisted_5 = [_hoisted_2, _hoisted_3, _hoisted_4];
-function HomePagevue_type_template_id_5e6f8f48_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", _hoisted_1, _hoisted_5);
-}
-;// CONCATENATED MODULE: ./src/components/HomePage.vue?vue&type=template&id=5e6f8f48
+    const _hoisted_1 = {
+        class: "container-fluid"
+    };
+    const _hoisted_2 = /*#__PURE__*/(0, external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createStaticVNode)("<h2>Stanford Home</h2><div class=\"row\"><div class=\"col-6\"><div class=\"card\" style=\"width:18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Card title</h5><h6 class=\"card-subtitle mb-2 text-muted\">Card subtitle</h6><p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p><a href=\"#\" class=\"card-link\">Card link</a><a href=\"#\" class=\"card-link\">Another link</a></div></div></div><div class=\"col-6\"><div class=\"card\" style=\"width:18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Card title</h5><h6 class=\"card-subtitle mb-2 text-muted\">Card subtitle</h6><p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p><a href=\"#\" class=\"card-link\">Card link</a><a href=\"#\" class=\"card-link\">Another link</a></div></div></div></div><div class=\"row\"><div class=\"col-6\"><div class=\"card\" style=\"width:18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Card title</h5><h6 class=\"card-subtitle mb-2 text-muted\">Card subtitle</h6><p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p><a href=\"#\" class=\"card-link\">Card link</a><a href=\"#\" class=\"card-link\">Another link</a></div></div></div><div class=\"col-6\"><div class=\"card\" style=\"width:18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Card title</h5><h6 class=\"card-subtitle mb-2 text-muted\">Card subtitle</h6><p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p><a href=\"#\" class=\"card-link\">Card link</a><a href=\"#\" class=\"card-link\">Another link</a></div></div></div></div><div class=\"row\"><div class=\"col-6\"><div class=\"card\" style=\"width:18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Card title</h5><h6 class=\"card-subtitle mb-2 text-muted\">Card subtitle</h6><p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p><a href=\"#\" class=\"card-link\">Card link</a><a href=\"#\" class=\"card-link\">Another link</a></div></div></div><div class=\"col-6\"><div class=\"card\" style=\"width:18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Card title</h5><h6 class=\"card-subtitle mb-2 text-muted\">Card subtitle</h6><p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p><a href=\"#\" class=\"card-link\">Card link</a><a href=\"#\" class=\"card-link\">Another link</a></div></div></div></div>", 4);
+    const _hoisted_6 = [_hoisted_2];
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HomePage.vue?vue&type=script&lang=js
-/* harmony default export */ var HomePagevue_type_script_lang_js = ({
-  name: "HomePage"
-});
-;// CONCATENATED MODULE: ./src/components/HomePage.vue?vue&type=script&lang=js
- 
+    function HomePagevue_type_template_id_2c5354dc_render(_ctx, _cache, $props, $setup, $data, $options) {
+        return (0, external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0, external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", _hoisted_1, _hoisted_6);
+    }
+    ;// CONCATENATED MODULE: ./src/components/HomePage.vue?vue&type=template&id=2c5354dc
+
+    ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HomePage.vue?vue&type=script&lang=js
+    /* harmony default export */
+    var HomePagevue_type_script_lang_js = ({
+        name: "HomePage"
+    });
+    ;// CONCATENATED MODULE: ./src/components/HomePage.vue?vue&type=script&lang=js
+
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
-var exportHelper = __webpack_require__(89);
-;// CONCATENATED MODULE: ./src/components/HomePage.vue
+    var exportHelper = __webpack_require__(89);
+    ;// CONCATENATED MODULE: ./src/components/HomePage.vue
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(HomePagevue_type_script_lang_js, [['render',HomePagevue_type_template_id_5e6f8f48_render]])
+    const __exports__ = /*#__PURE__*/(0, exportHelper/* default */.Z)(HomePagevue_type_script_lang_js, [['render', HomePagevue_type_template_id_2c5354dc_render]])
 
 /* harmony default export */ var HomePage = (__exports__);
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=script&lang=js

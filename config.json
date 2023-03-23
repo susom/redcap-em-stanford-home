@@ -29,7 +29,13 @@
     "enable-every-page-hooks-on-system-pages": false,
     "links": {
         "project": [
-
+{
+                "name": "*** TEST Stanford Home",
+                "key": "StanfordHome",
+                "icon": "redcap-logo-letter",
+                "url": "pages/index.php",
+                "show-header-and-footer": true
+            }
         ],
         "control-center": [
 

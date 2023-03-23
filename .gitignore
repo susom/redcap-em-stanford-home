@@ -13,3 +13,4 @@ gitInit.sh
 
 # Composer
 /vendor
+/frontend/node_modules

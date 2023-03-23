@@ -1,90 +1,46 @@
 <template>
-  <div class="container-fluid">
-    <h2>Stanford Home</h2>
-    <div class="row">
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div>
+    <HeaderComponent/>
+    <ActionItems v-if="this.page === 'actions'"/>
+    <HelpComponent v-if="this.page === 'help'"/>
   </div>
 </template>
 
 <script>
+import ActionItems from "@/components/ActionItems.vue";
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import HelpComponent from "@/components/HelpComponent.vue";
+
 export default {
-  name: "HomePage"
+  name: "HomePage",
+  components: {
+    HeaderComponent,
+    HelpComponent,
+    ActionItems
+  },
+  data() {
+    return {
+      page: 'actions',
+      fullURL: window.location.href,
+    }
+  },
+  methods: {
+    loadComponent: function (name) {
+      this.page = name
+      location.hash = name
+    },
+    determineComponent: function () {
+      const route = this.fullURL.toLowerCase();
+      var parts = route.split("#")
+      if (parts[1] !== undefined) {
+        this.page = parts[1]
+      }
+
+    }
+  },
+  beforeMount() {
+    this.determineComponent()
+  },
 }
 </script>
 

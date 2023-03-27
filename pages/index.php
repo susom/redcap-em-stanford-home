@@ -1,7 +1,7 @@
 <?php
 
 namespace Stanford\StanfordHome;
-
+// test
 /** @var \Stanford\StanfordHome\StanfordHome $module */
 try {
     if (!$module->isSuperUser()) {
